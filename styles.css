@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sanchez&display=swap');
+*{
+    margin: 0px;
+}
+
+body{
+    background-color:rgba(221, 217, 217, 0.534);
+}
+
+.head{
+    background-color: rgba(239, 10, 10, 0.919);
+    height: 150px;
+}
+
+h1{
+    font-size: 90px;
+    color:white;
+    font-family: "Dancing Script", cursive;
+}
+
+img{
+    width: 200px;
+}
+
+.linkCardapio{
+    font-size: 30px;
+}
+
+/*CARDAPIO*/
+.cardapio{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 55%;
+    height: 70vw;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    font-size: 90px;
+    font-family: "Dancing Script", cursive;
+}
+

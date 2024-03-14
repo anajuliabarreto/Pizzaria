@@ -18,16 +18,12 @@ h1{
     font-family: "Dancing Script", cursive;
 }
 
-img{
-    width: 200px;
-}
-
 .linkCardapio{
     font-size: 30px;
 }
 
 /*CARDAPIO*/
-.cardapio{
+/* .cardapio{
     border: 2px solid black;
     border-radius: 10px;
     width: 55%;
@@ -37,7 +33,7 @@ img{
     align-items: center;
     justify-content: center;
     margin-left: 25%;
-}
+} */
 
 h2{
     display: flex;
@@ -46,5 +42,23 @@ h2{
     margin: 60px;
     font-size: 90px;
     font-family: "Dancing Script", cursive;
+}
+
+.pizzas, .bebidas, .info{
+    color: black;
+    font-size: 35px;
+    padding: 5px;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    width: 20vw;
+}
+.cardapioPizza, .cardapioBebida{
+    font-size: 4em;
+    margin-bottom: 50px;
 }
 

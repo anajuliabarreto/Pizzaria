@@ -22,18 +22,30 @@ h1{
     font-size: 30px;
 }
 
+.boxInformacoes{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.informacoes, .formulario{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+input,  button{
+    width: 40%;
+    height: 60px;
+    margin-bottom: 2%;
+}
+
+::placeholder, button {
+    font-size: 25px;
+}
+
+
 /*CARDAPIO*/
-/* .cardapio{
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 55%;
-    height: 70vw;
-    margin-bottom: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 25%;
-} */
 
 h2{
     display: flex;
